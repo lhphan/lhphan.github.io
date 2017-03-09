@@ -1,0 +1,73 @@
+body {
+	background-color: #e1e0dd;
+	color: #35342f;
+}
+a {
+	color: #000;
+}
+h2 {
+	margin-bottom: 30px;
+}
+.bg-inverse {
+	background-color: #e1e0dd !important;
+}
+.navbar {
+	background-color: #e1e0dd;
+}
+.navbar-brand {
+	color: #2E343B;
+}
+.intro {
+	color: #67809F;
+	padding: 100px 0;
+}
+.section {
+    padding-top: 60px;
+    margin-top: -60px;
+}
+.annotation {
+	border-bottom: 1px dotted #000;
+}
+.spacer {
+	margin-bottom: 30px;
+}
+.portfolioImg {
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+/* SMALL DEVICES */
+@media (min-width: 576px){
+	.myPic {
+		margin-bottom: 30px;
+	}
+}
+
+/* MEDIUM DEVICES */
+@media (min-width: 768px){
+	.intro h1 {
+		font-size: 5rem;
+	}
+	.intro .lead {
+		font-size: 3rem;
+	}
+	.portfolioImg {
+		text-align: center;
+	}
+}
+
+/* LARGE DEVICES */
+@media (min-width: 992px){
+
+}
+
+/* EXTRA LARGE DEVICE */
+@media (min-width: 1200px){
+	
+}
+
+
+
+
+
+

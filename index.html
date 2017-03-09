@@ -1,10 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Hello World</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="A website">
+    <meta name="author" content="Lien Phan">
+    <title>Lien Phan</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/my-styles.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+    /* Set top padding of the page to match the height of the navbar */
+    
+    body {
+        padding-top: 54px;
+    }
+    
+    @media (min-width: 992px) {
+        body {
+            padding-top: 56px;
+        }
+    }
+    /* Ugly hacks to fix the container within navbar functionality - should be fixed in Bootstrap 4 beta */
+    
+    .navbar-toggler {
+        z-index: 1;
+    }
+    
+    @media (max-width: 576px) {
+        nav > .container {
+            width: 100%;
+        }
+    }
+    </style>
+
 </head>
+
 <body>
-	<h1>Hello world!</h1>
+
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-toggleable-md navbar-light">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container">
+            <a class="navbar-brand" href="#">Lien Phan</a>
+            <div class="collapse navbar-collapse" id="navbarExample">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutMe">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container container-main">
+        <div class="row spacer">
+            <div class="col-lg-12 text-center intro">
+                <h1 class="mt-5">Hi, my name is 
+                <span class="annotation" data-toggle="tooltip" data-placement="top" title="pronounced like Lynn">Lien</span></h1>
+                <p class="lead">and this is my portfolio.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 id="aboutMe" class="section">About Me</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 text-center">
+                <img class="img-fluid myPic" src="http://placehold.it/400x350">   
+            </div>
+            <div class="col-lg-7 offset-lg-1">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum nisi obcaecati atque iure officia porro aut sapiente quaerat vel dignissimos, autem quasi placeat reiciendis ut. Minus qui dicta nemo aspernatur.</p>
+                <p>Nobis excepturi, nesciunt, itaque nostrum voluptates earum. Ducimus fugit dicta sapiente quia adipisci quisquam necessitatibus, vitae non, itaque laborum inventore deleniti possimus doloremque aliquam, in, nostrum accusantium quo? Dolor, aspernatur.</p>
+            </div>
+        </div>
+        <div class="row spacer">
+            <div class="col-lg-12">
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 id="work" class="section">Work</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 text-center"><img class="img-fluid portfolioImg" src="http://placehold.it/350x350"></div>
+            <div class="col-lg-3 col-md-6 col-sm-12 text-center"><img class="img-fluid portfolioImg" src="http://placehold.it/350x350"></div>
+            <div class="col-lg-3 col-md-6 col-sm-12 text-center"><img class="img-fluid portfolioImg" src="http://placehold.it/350x350"></div>
+            <div class="col-lg-3 col-md-6 col-sm-12 text-center"><img class="img-fluid portfolioImg" src="http://placehold.it/350x350"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 text-center"><img class="img-fluid portfolioImg" src="http://placehold.it/350x350"></div>
+            <div class="col-lg-3 col-md-6 col-sm-12 text-center"><img class="img-fluid portfolioImg" src="http://placehold.it/350x350"></div>
+            <div class="col-lg-3 col-md-6 col-sm-12 text-center"><img class="img-fluid portfolioImg" src="http://placehold.it/350x350"></div>
+            <div class="col-lg-3 col-md-6 col-sm-12 text-center"><img class="img-fluid portfolioImg" src="http://placehold.it/350x350"></div>
+        </div>
+        <div class="row spacer">
+            <div class="col-lg-12">
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 id="contact" class="section">Contact</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-xs-1">
+                <h3>CodePen</h3>
+            </div>
+            <div class="col-md-4 col-xs-5">
+                <a href="https://codepen.io/lhphan/">@lhphan</a>
+            </div>
+            <div class="col-md-2 col-xs-1">
+                <h3>GitHub</h3>
+            </div>
+            <div class="col-md-4 col-xs-5">
+                <a href="https://github.com/lhphan">@lhphan</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery Version 3.1.1 -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Tether -->
+    <script src="js/tether.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+          $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+
 </body>
+
 </html>
